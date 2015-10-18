@@ -26,6 +26,9 @@
         <extension module="org.jboss.as.webservices"/>
         <extension module="org.jboss.as.weld"/>
     </extensions>
+    <system-properties> 
+        <property name="jolokia.agent" value="http://0.0.0.0:8778/jolokia/"/>
+    </system-properties> 
     <management>
         <security-realms>
             <security-realm name="ManagementRealm">
